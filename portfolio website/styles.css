@@ -1,0 +1,139 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 5000px;
+    background-color: #F5F5F5;
+    padding: 0px;
+    margin: 0px;
+    font-family: "poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-bar {
+    font-size: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color:  #2962FF;
+    padding: clamp(10px, 2vw, 20px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#nav-bar-left {
+    display: flex;
+    justify-content: left;
+
+}
+
+#nav-bar-right {
+    display: flex;
+    justify-content: right;
+}
+
+.about-hyperlink-home {
+    font-size: large;
+    margin-left: 10px;
+    color: white;
+}
+
+.about-hyperlink {
+    font-size: large;
+    margin-left: 10px;
+    color: white;
+}
+
+#about-me-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding-top: 100px;
+}
+
+#about-me-header {
+    display: flex;
+    font-size: clamp(30px, 2vw, 40px);
+    color: #333333;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.divider {
+    border-bottom: 5px solid #6E1BFF;
+    display: block;
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+#pfp-img {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 30px rgba(0,0,0, 0.5);
+    justify-content: center;
+}
+
+#about-me-p1 {
+    display: flex;
+    font-size: clamp(12px, 2vw, 20px);
+    color: #333333;
+    justify-content: center;
+    width: 50rem;
+    max-width: 100%;
+}
+
+.socials {
+    width: 5rem;
+    padding: 2rem;
+    margin-bottom: 100px;
+}
+
+#project-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#project-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(30px, 2vw, 40px);
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.project-content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 100%;
+}
+
+
+.project-content, .project-content-img {
+    width: 300px;
+    background-color: #6E1BFF;
+    border-radius: 10px;
+}
+
+.project-content-img {
+    height: 100px;
+    object-fit: cover;
+}
