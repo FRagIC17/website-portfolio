@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 </head>
-<body class="font-poppins bg-cover bg-center bg-no-repeat bg-gradient-to-r from-black to-gray-900">
+<body class="font-poppins bg-cover bg-center bg-no-repeat bg-gradient-to-b from-black to-gray-900">
     <main>
         <nav class="flex items-center p-7 text-xl text-white w-full z-50 justify-center">
             <ul class="flex gap-5">
@@ -20,41 +20,86 @@
         <header class="flex items-center justify-center p-7 text-5xl text-white w-full z-50">
             <h1>Projects</h1>
         </header>   
-        <section class="items-center justify-center p-7 text-2xl text-white w-full">
-            <div class="p-7 text-2xl text-white">
-                <p class="flex justify-center">Here are some of the projects I have worked on:</p>
-            </div>
-            <section class="flex justify-center gap-7">
-                <a href="projects-html/project1.html">
-                    <div class="hover:scale-110 duration-100">
-                        <p class="p-7 text-2xl text-white w-full flex justify-center">Project 1</p>
+
+        <div class="p-7 text-2xl text-white">
+            <p class="flex justify-center">Here are some of the projects I have worked on:</p>
+        </div>
+
+        <section class="flex justify-center gap-7">
+            <a href="https://github.com/FRagIC17/python-projects/blob/main/miniprojekt%201%20rigtig%20løst.py">
+                <div class="hover:scale-110 duration-100 relative">
+                    <p class="p-7 text-2xl text-white w-full flex justify-center">Miniproject 1</p>
+                    <div class="relative ">
                         <img src="miniprojekt1.PNG" alt="miniprojekt1" style="width: 300px; height: 300px; border-radius: 10px;">
+                        <p class="absolute inset-0 flex items-center justify-center text-sm text-white bg-black/70 opacity-0 hover:opacity-100 p-4 transition-opacity duration-300 rounded-lg">
+                            This is a guessing game where the program picks a random number between 0 and 100, and the user has to guess it. 
+                            It provides hints like "Way off!" or "Getting close!" based on how near the guess is, 
+                            and ends when the number is guessed correctly or after 10 attempts.
+                        </p>
                     </div>
-                </a>
-
-                <a href="projects-html/project2.html">
-                    <div class="hover:scale-110 duration-100">
-                        <p class="p-7 text-2xl text-white w-full flex justify-center">Project 2</p>           
+                </div>
+            </a>
+            <a href="https://github.com/FRagIC17/python-projects/blob/main/miniprojekt%202.py">
+                <div class="hover:scale-110 duration-100 relative">
+                    <p class="p-7 text-2xl text-white w-full flex justify-center">Miniproject 2</p>
+                    <div class="relative">
                         <img src="miniprojekt2.PNG" alt="miniprojekt2" style="width: 300px; height: 300px; border-radius: 10px;">
+                        <p class="absolute inset-0 flex items-center justify-center text-sm text-white opacity-0 bg-black/70 hover:opacity-100 p-4 transition-opacity duration-300 rounded-lg">
+                            This is a program that checks whether an entered email is valid. 
+                            It verifies if the email has the correct length, contains exactly one "@" symbol, and ends with ".dk". 
+                            Additionally, it ensures the email meets specific formatting requirements to be considered valid for use.
+                        </p>
                     </div>
-                </a>
+                </div>
+            </a>
 
-                <a href="projects-html/project3.html">
-                    <div class="hover:scale-110 duration-100">
-                        <p class="p-7 text-2xl text-white w-full flex justify-center">Project 3</p>
+            <a href="https://github.com/FRagIC17/python-projects/blob/main/miniprojekt%203.py">
+                <div class="hover:scale-110 duration-100 relative">
+                    <p class="p-7 text-2xl text-white w-full flex justify-center">Miniproject 3</p>
+                    <div class="relative">
                         <img src="miniprojekt3.PNG" alt="miniprojekt3" style="width: 300px; height: 300px; border-radius: 10px;">
+                        <p class="absolute inset-0 flex items-center justify-center text-sm text-white opacity-0 bg-black/70 hover:opacity-100 p-4 transition-opacity duration-300 rounded-lg">
+                            This is a password validation program that checks if a password meets specific security requirements. 
+                            It ensures the password is at least 8 characters long, contains both uppercase and lowercase letters, 
+                            includes at least one digit, and has at least one special character. If the password fails any of these checks, 
+                            it provides feedback on what is missing.
+                        </p>
                     </div>
-                </a>
+                </div>
+            </a>
 
-                <a href="projects-html/grundproject.html">
-                    <div class="hover:scale-110 duration-100">
-                        <p class="p-7 text-2xl text-white w-full flex justify-center">grundforløbsproject</p>
-                        <img src="grundforløbsprojekt.PNG" alt="grundforløbsprojekt" style="width: 300px; height: 300px; border-radius: 10px;">
+            <a href="https://github.com/FRagIC17/python-projects/blob/main/grundforløbsprojekt.py">
+                <div class="hover:scale-110 duration-100 relative">
+                    <p class="p-7 text-2xl text-white w-full flex justify-center">grundforløbsproject</p>
+                    <div class="relative">
+                        <img src="grundforløbsprojekt.PNG" alt="grundforløbsproject" style="width: 300px; height: 300px; border-radius: 10px;">
+                        <p class="absolute inset-0 flex items-center justify-center text-sm text-white opacity-0 bg-black/70 hover:opacity-100 p-4 transition-opacity duration-300 rounded-lg">
+                            This is a GUI-based program with two features: a BMI calculator and a working hours calculator. Using PySimpleGUI, 
+                            it allows users to input their height and weight for BMI calculation or enter start and end times to compute working hours.
+                            It includes error handling and displays results interactively.
+                        </p>
                     </div>
-                </a>
-            </section>
+                </div>
+            </a>
+        </section>
+        
+        <section class="flex justify-center gap-7">
+            <a href="https://github.com/FRagIC17/c--karakterbog/tree/main/KarakterBogGUI">
+                <div class="hover:scale-110 duration-100 relative">
+                    <p class="p-7 text-2xl text-white w-full flex justify-center">Gradingbook C#</p>
+                    <div class="relative">
+                        <img src="grundforløbsprojekt.PNG" alt="Karakterbog" style="width: 300px; height: 300px; border-radius: 10px;">
+                        <p class="absolute inset-0 flex items-center justify-center text-sm text-white opacity-0 bg-black/70 hover:opacity-100 p-4 transition-opacity duration-300 rounded-lg">
+                            This is a GUI-based program with two features: a BMI calculator and a working hours calculator. Using PySimpleGUI, 
+                            it allows users to input their height and weight for BMI calculation or enter start and end times to compute working hours.
+                            It includes error handling and displays results interactively.
+                        </p>
+                    </div>
+                </div>
+            </a>
         </section>
     </main>
+
     <footer class="flex items-center justify-center p-7 text-xl text-white w-full z-50">
         <p>&copy; - Philip Sørensen - +45 30140010 - Phil6515@edu.sde.dk</p>
     </footer>
